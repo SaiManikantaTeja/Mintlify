@@ -1,0 +1,2 @@
+# Mintlify
+Documentation Tool
