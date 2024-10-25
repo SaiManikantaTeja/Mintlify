@@ -27,28 +27,33 @@
   },
   "tabs": [
     {
-      "name": "API Reference",
+      "name": "Reference",
       "url": "api-reference"
-    }
-  ],
-  "anchors": [
-    {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
     },
     {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
-    },
-    {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "name": "New page",
+      "url": "new-page"
     }
   ],
   "navigation": [
+    {
+      "group": "SplashBI",
+      "pages": [
+        {
+          "group": "Report",
+          "pages": [
+            "new-page/Reports/report-intro"
+          ]
+        },
+        {
+          "group": "Dashboard",
+          "pages": [
+            "new-page/Dashboard/dash-intro",
+            "new-page/Dashboard/options"
+          ]
+        }
+      ]
+    },
     {
       "group": "Get Started",
       "pages": [
